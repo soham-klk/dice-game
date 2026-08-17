@@ -1,6 +1,6 @@
 //First image
 let randomNum1 = Math.floor(Math.random()*6) + 1;
-let randomImage1 = "images/" + "dice"+ randomNum1 + ".png";
+let randomImage1 = "dice"+ randomNum1 + ".png";
 
 let image1 = document.querySelectorAll("img")[0];
 image1.setAttribute("src",randomImage1);
@@ -8,7 +8,7 @@ image1.setAttribute("src",randomImage1);
 //second image
 
 let randomNum2 = Math.floor(Math.random()*6) + 1;
-let randomImage2 = "images/" + "dice" + randomNum2 + ".png";
+let randomImage2 = "dice" + randomNum2 + ".png";
 let image2 = document.querySelectorAll("img")[1];
 image2.setAttribute("src",randomImage2);
 
