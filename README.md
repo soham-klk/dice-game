@@ -1,2 +1,3 @@
-# dice-game
-Dice game - Two dices generate different numbers between 1 to 6 , After the page is reloaded new numbers will be displayed with message.
+🎲 Dice Game
+
+A simple web application where two dice generate random numbers between 1 and 6 whenever the page is refreshed. It automatically compares the results and displays the winner at the top.
